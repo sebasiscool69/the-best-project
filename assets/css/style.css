@@ -14,7 +14,7 @@ header{
 
 /* navbar CSS */
 .navbar{
-    background-color: rgb(129, 209, 247);
+    background-color: #26a69a;
     font-family: 'Noto Sans', sans-serif;
 }
 .navbar .brand-logo {
@@ -26,8 +26,13 @@ header{
 /* navbar CSS */
 
 /* hero-top CSS */
+#hero-top{
+    height: 400px;
+    text-align: center;
+    line-height: 50%;
+}
 #hero-title{
-    padding-top: 15px;
+    padding-top: 50px;
     font-size: 3rem;
 }
 
