@@ -7,66 +7,54 @@
     <title>Soup & Shelter</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E" ></script>
-
-
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
-
-<header>
-    <h1>
-        <p> <em>Welcome to Soup & Shelter!</em>
-        </p>
-    </h1>
-    <h2>
-        <p> In need of a soup kitchen or a shelter? 
-            Use our platform to locate a safe place to go, eat a warm meal, or to volunteer in your community!</p>
-    </h2>
-    <nav>
-        <ul>
-            <li>
-                <a href= "#about-us"> &#127774 ABOUT US &#127774 </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-
 <body>
-    <section class = "">
-        <div class= "" id="">
-            <h3>Hey there!</h3>
-            <form class="" id="startUp">
-            <h4>Please pick from the options below!</h4>
-            <p>
-                Will it be soup, shelter, or both today?
-                <span class="">
-                </br>
-                    <input type="checkbox" name="soup" id="soupCheck" value="Soup"/>
-                    <label for=""> Soup </label>
-                </span>
-                </br>
-                <span class="">
-                    <input type="checkbox" name="shelter" id="shelCheck" value="Shelter"/>
-                    <label for=""> Shelter </label>
-                </span>
-<!--
-                <span class="">
-                    <input type="checkbox" name="" id="" />
-                    <label for=""> Both </label>
-                </span> -->
-            </p> 
-            <p>
-                Please check off this box if you are looking to volunteer.
-                <span class="">
-                </br>
-                <input type="checkbox" name="volunteer" id="volCheck" value="Volunteer"/>
-                <label for="">Yes, I want to volunteer!</label>
-            </p>
-            <button type="submit" id="buttonSubmit" class="" value="Submit">
-                Let's get started!
-            </button>
-            </form>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+            </ul>
         </div>
-    </section>
-
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <!-- Hero Top -->
+    <header>
+        <h1>
+            <p> 
+                <em>Soup & Shelter</em>
+            </p>
+        </h1>
+        <h2>
+            <p> In need of a soup kitchen or a shelter? 
+                Use our platform to locate a safe place to go, 
+                eat a warm meal, or to volunteer in your community!
+            </p>
+        </h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href= "#about-us"> &#127774 ABOUT US &#127774 </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- About Us -->
     <section id= "about-us" class="">
         <div class="flex-row">
 
@@ -74,8 +62,12 @@
         </div>
         <div class= "flex-row">
             <h3> Our Mission</h3>
-            <p>We created this website to help solve a world problem. Over the last year things have been very rough, especially with covid. The goal of this application is to help the user locate a nearby soup kitchen, a shelter, or both if needed. One of the most important things in life is sticking together as a community. 
-                As the century's old saying goes,<strong> 'A chain is only as strong as it's weakest link'</strong>. Helping others in need is the best way to persevere through these difficult times and mend this divided country.
+            <p>We created this website to help solve a world problem. 
+                Over the last year things have been very rough, especially with covid. 
+                The goal of this application is to help the user locate a nearby soup kitchen, a shelter, or both if needed. 
+                One of the most important things in life is sticking together as a community. 
+                As the century's old saying goes,<strong> 'A chain is only as strong as it's weakest link'</strong>. 
+                Helping others in need is the best way to persevere through these difficult times and mend this divided country.
             </p>
             <div class="image-one">
                 <img control width="200" src="photos/soup.jpg" alt="soup-kitchen" />
@@ -88,8 +80,39 @@
             <div class="image-three">
                 <img control width="200" src="photos/shelter.jpg" alt="shelter" />
             </div>
-
-
+        </div>
+    </section>
+    
+    <!-- Search Shelter -->
+    <section class = "">
+        <div class= "" id="">
+            <h3>Hey there!</h3>
+            <form class="" id="startUp">
+                <h4>Please pick from the options below!</h4>
+                <p>
+                    Will it be soup, shelter, or both today?
+                    <span class="">
+                    </br>
+                        <input type="checkbox" name="soup" id="soupCheck" value="Soup"/>
+                        <label for=""> Soup </label>
+                    </span>
+                    </br>
+                    <span class="">
+                        <input type="checkbox" name="shelter" id="shelCheck" value="Shelter"/>
+                        <label for=""> Shelter </label>
+                    </span>
+                </p> 
+                <p>
+                    Please check off this box if you are looking to volunteer.
+                    <span class="">
+                    </br>
+                    <input type="checkbox" name="volunteer" id="volCheck" value="Volunteer"/>
+                    <label for="">Yes, I want to volunteer!</label>
+                </p>
+                <button type="submit" id="buttonSubmit" class="" value="Submit">
+                    Let's get started!
+                </button>
+            </form>
         </div>
     </section>
 
