@@ -4,9 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Soup & Shelter</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E" ></script>
+
+
 </head>
+
+<header>
+    <h1>
+        <p> <em>Welcome to Soup & Shelter!</em>
+        </p>
+    </h1>
+    <h2>
+        <p> In need of a soup kitchen or a shelter? 
+            Use our platform to locate a safe place to go, eat a warm meal, or to volunteer in your community!</p>
+    </h2>
+    <nav>
+        <ul>
+            <li>
+                <a href= "#about-us"> &#127774 ABOUT US &#127774 </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
 <body>
-    <div></div>
+    <section class = "">
+        <div class= "" id="">
+            <h3>Hey there!</h3>
+            <form class="" id="startUp">
+            <h4>Please pick from the options below!</h4>
+            <p>
+                Will it be soup, shelter, or both today?
+                <span class="">
+                </br>
+                    <input type="checkbox" name="soup" id="soupCheck" value="Soup"/>
+                    <label for=""> Soup </label>
+                </span>
+                </br>
+                <span class="">
+                    <input type="checkbox" name="shelter" id="shelCheck" value="Shelter"/>
+                    <label for=""> Shelter </label>
+                </span>
+<!--
+                <span class="">
+                    <input type="checkbox" name="" id="" />
+                    <label for=""> Both </label>
+                </span> -->
+            </p> 
+            <p>
+                Please check off this box if you are looking to volunteer.
+                <span class="">
+                </br>
+                <input type="checkbox" name="volunteer" id="volCheck" value="Volunteer"/>
+                <label for="">Yes, I want to volunteer!</label>
+            </p>
+            <button type="submit" id="buttonSubmit" class="" value="Submit">
+                Let's get started!
+            </button>
+            </form>
+        </div>
+    </section>
+
+    <section id= "about-us" class="">
+        <div class="flex-row">
+
+            <h2 class="section-title primary-border">About us</h2>
+        </div>
+        <div class= "flex-row">
+            <h3> Our Mission</h3>
+            <p>We created this website to help solve a world problem. Over the last year things have been very rough, especially with covid. The goal of this application is to help the user locate a nearby soup kitchen, a shelter, or both if needed. One of the most important things in life is sticking together as a community. 
+                As the century's old saying goes,<strong> 'A chain is only as strong as it's weakest link'</strong>. Helping others in need is the best way to persevere through these difficult times and mend this divided country.
+            </p>
+            <div class="image-one">
+                <img control width="200" src="photos/soup.jpg" alt="soup-kitchen" />
+            </div>
+
+            <div class="image-two">
+                <img control width="300" src="photos/people.jpg" alt="helping-people" />
+            </div>
+
+            <div class="image-three">
+                <img control width="200" src="photos/shelter.jpg" alt="shelter" />
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>
+            &#128150 Do something nice for a stranger &#128536
+        </h3>
+    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
