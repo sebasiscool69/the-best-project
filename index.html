@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soup & Shelter</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
 <header>
@@ -28,34 +28,39 @@
 
 <body>
     <section class = "">
-        <div class= "">
+        <div class= "" id="">
             <h3>Hey there!</h3>
+            <form class="" id="startUp">
             <h4>Please pick from the options below!</h4>
             <p>
                 Will it be soup, shelter, or both today?
                 <span class="">
-                    <input type="checkbox" name="" id="" />
+                </br>
+                    <input type="checkbox" name="soup" id="soupCheck" value="Soup"/>
                     <label for=""> Soup </label>
                 </span>
-
+                </br>
                 <span class="">
-                    <input type="checkbox" name="" id="" />
+                    <input type="checkbox" name="shelter" id="shelCheck" value="Shelter"/>
                     <label for=""> Shelter </label>
                 </span>
-
+<!--
                 <span class="">
                     <input type="checkbox" name="" id="" />
                     <label for=""> Both </label>
-                </span>
-            </p>
+                </span> -->
+            </p> 
             <p>
                 Please check off this box if you are looking to volunteer.
                 <span class="">
-                <input type="checkbox" name="" id="" />
+                </br>
+                <input type="checkbox" name="volunteer" id="volCheck" value="Volunteer"/>
+                <label for="">Yes, I want to volunteer!</label>
             </p>
-            <button type="submit">
+            <button type="submit" id="buttonSubmit" class="" value="Submit">
                 Let's get started!
             </button>
+            </form>
         </div>
     </section>
 
@@ -90,6 +95,6 @@
             &#128150 Do something nice for a stranger &#128536
         </h3>
     </footer>
-    <script src=""></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
