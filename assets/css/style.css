@@ -10,5 +10,8 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
 
+#hero-title{
+    padding-top: 15px;
 }
