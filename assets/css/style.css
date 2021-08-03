@@ -12,6 +12,23 @@ header{
     flex-wrap: wrap;
 }
 
+/* navbar CSS */
+.navbar{
+    background-color: rgb(129, 209, 247);
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar .brand-logo {
+    font-size: 2.5rem;
+}
+.navbar .right li a{
+    font-size: 1.25rem;
+}
+/* navbar CSS */
+
+/* hero-top CSS */
 #hero-title{
     padding-top: 15px;
+    font-size: 3rem;
 }
+
+/* hero-top CSS */
