@@ -23,17 +23,24 @@ header{
 .navbar .right li a{
     font-size: 1.25rem;
 }
+@media (max-width: 485px){
+    .brand-logo{
+        font-size: 1.8rem !important;
+    }
+    .navbar .material-icons{
+        font-size: 1.2rem !important;
+    }
+}
 /* navbar CSS */
 
 /* hero-top CSS */
 #hero-top{
-    height: 400px;
     text-align: center;
     line-height: 50%;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 #hero-title{
-    padding-top: 50px;
     font-size: 3rem;
 }
-
 /* hero-top CSS */
