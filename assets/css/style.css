@@ -4,11 +4,48 @@
     box-sizing:border-box;
 }
 
-header{
-    padding: 30px 40px;
-    background-color: lightskyblue;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 
+/* navbar CSS */
+.navbar{
+    background-color: #26a69a;
+    font-family: 'Noto Sans', sans-serif;
 }
+.navbar .brand-logo {
+    font-size: 2.5rem;
+}
+.navbar .right li a{
+    font-size: 1.25rem;
+}
+@media (max-width: 485px){
+    .brand-logo{
+        font-size: 1.8rem !important;
+    }
+    .navbar .material-icons{
+        font-size: 1.2rem !important;
+    }
+}
+/* navbar CSS */
+
+/* hero-top CSS */
+header{
+    background-image: url("../photos/giving-food.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+#hero-top{
+    text-align: center;
+    line-height: 50%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#hero-title{
+    font-size: 3rem;
+    background-color: #000000;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+/* hero-top CSS */
