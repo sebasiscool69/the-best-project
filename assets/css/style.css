@@ -28,11 +28,13 @@
 
 /* hero-top CSS */
 header{
-    padding: 30px 40px;
-    background-image: url("photos/giving-food.jpg");
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    background-image: url("../photos/giving-food.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 #hero-top{
     text-align: center;
@@ -42,5 +44,8 @@ header{
 }
 #hero-title{
     font-size: 3rem;
+    background-color: #000000;
+    color: white;
+    padding: 0 10px 0 10px;
 }
 /* hero-top CSS */
