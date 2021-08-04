@@ -4,13 +4,6 @@
     box-sizing:border-box;
 }
 
-header{
-    padding: 30px 40px;
-    background-color: lightskyblue;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 /* navbar CSS */
 .navbar{
@@ -34,6 +27,13 @@ header{
 /* navbar CSS */
 
 /* hero-top CSS */
+header{
+    padding: 30px 40px;
+    background-image: url("photos/giving-food.jpg");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 #hero-top{
     text-align: center;
     line-height: 50%;
