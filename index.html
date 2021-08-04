@@ -6,53 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soup & Shelter</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E" ></script>
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </head>
 <body>
     <!-- Navbar -->
-    <nav>
+    <nav class="navbar" style="padding:0px 10px; position: fixed;">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" class="brand-logo">Soup & Shelter</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
             <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shelter Locations</a></li>
+                <li><a href="#">Soup House </a></li>
             </ul>
         </div>
     </nav>
-    
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+    <!-- Sidebar html -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shelter Locations</a></li>
+        <li><a href="#">Soup House</a></li>
     </ul>
+
     <!-- Hero Top -->
-    <header>
-        <h1>
-            <p> 
-                <em>Soup & Shelter</em>
-            </p>
-        </h1>
-        <h2>
-            <p> In need of a soup kitchen or a shelter? 
-                Use our platform to locate a safe place to go, 
-                eat a warm meal, or to volunteer in your community!
-            </p>
-        </h2>
-        <nav>
-            <ul>
-                <li>
-                    <a href= "#about-us"> &#127774 ABOUT US &#127774 </a>
-                </li>
-            </ul>
-        </nav>
+    <header class="section parallax-containe" id="hero-top">
+        <h1 id="hero-title">Helping The World One Cup Of Soup At A Time</h1>
+
+        <h5 id="hero-description">In need of a soup kitchen or a shelter? 
+            Use our platform to locate a safe place to go, 
+            eat a warm meal, or to volunteer in your community!
+        </h5>
+        <a class="waves-effect waves-light btn" href="#about-us">&#127774 ABOUT US &#127774</a>
     </header>
     <!-- About Us -->
     <section id= "about-us" class="">
@@ -70,15 +69,15 @@
                 Helping others in need is the best way to persevere through these difficult times and mend this divided country.
             </p>
             <div class="image-one">
-                <img control width="200" src="photos/soup.jpg" alt="soup-kitchen" />
+                <img control width="200" src="assets/photos/kitchen.jpeg" alt="soup-kitchen" />
             </div>
 
             <div class="image-two">
-                <img control width="300" src="photos/people.jpg" alt="helping-people" />
+                <img control width="300" src="assets/photos/giving-food.jpg" alt="helping-people" />
             </div>
 
             <div class="image-three">
-                <img control width="200" src="photos/shelter.jpg" alt="shelter" />
+                <img control width="200" src="assets/photos/shelter.jpg" alt="shelter" />
             </div>
         </div>
     </section>
@@ -121,6 +120,8 @@
             &#128150 Do something nice for a stranger &#128536
         </h3>
     </footer>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/homepage.js"></script>
+
+
 </body>
 </html>
