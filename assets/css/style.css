@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 html:focus-within {
@@ -11,7 +13,6 @@ html:focus-within {
 /* navbar CSS */
 .navbar{
     background-color: #26a69a;
-    font-family: 'Noto Sans', sans-serif;
 }
 .navbar .brand-logo {
     font-size: 2.5rem;
@@ -50,8 +51,31 @@ header{
 }
 #hero-title{
     font-size: 3rem;
-    color: white;
     padding: 0 10px 0 10px;
+    color: #ffffff;
+}
+#hero-description {
+    color: #ffffff;
+}
+#pickOneTitle{
+    text-align: center;
+    vertical-align: middle;
+}
+#pickOneTitle h3{
+    padding: 50px 25px;
+    margin: 50px;
+    text-decoration: underline #26a69a;
+}
+#linksTitle a{
+    color: #000000;
+}
+#about-us{
+    text-align: center;
+    vertical-align: middle;
+}
+#image {
+    padding: 50px 25px;
+    margin: 50px;
 }
 #hero-description{
     color: white;
