@@ -4,6 +4,9 @@
     box-sizing:border-box;
 }
 
+html:focus-within {
+    scroll-behavior: smooth;
+}
 
 /* navbar CSS */
 .navbar{
@@ -28,7 +31,10 @@
 
 /* hero-top CSS */
 header{
-    background-image: url("../photos/giving-food.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("../photos/giving-food.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,8 +50,10 @@ header{
 }
 #hero-title{
     font-size: 3rem;
-    background-color: #000000;
     color: white;
     padding: 0 10px 0 10px;
+}
+#hero-description{
+    color: white;
 }
 /* hero-top CSS */
