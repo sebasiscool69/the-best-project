@@ -57,3 +57,18 @@ header{
     color: white;
 }
 /* hero-top CSS */
+
+/* Soup page css */
+.shelter-display{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.shelter-name{
+    font-size: 1.25rem;
+}
+
+.shelter-div{
+    background-color: grey;
+    text-align: center;
+}
+/* Soup page css */
