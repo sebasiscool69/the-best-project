@@ -14,3 +14,11 @@ The conecpt of the assignment was to create a application that would help solve 
 # Link to website:
 
 # Visual of live application:
+
+![](photos/preview.png)
+
+![](images/preview-2.png)
+
+![](images/preview-3.png)
+
+
