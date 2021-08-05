@@ -82,6 +82,14 @@ header{
 }
 /* hero-top CSS */
 
+/* About us CSS */
+.community-pics{
+    width: 350px;
+    height: 250px;
+}
+
+
+
 /* Soup page css */
 .shelter-display{
     margin-left: 30%;
@@ -95,4 +103,13 @@ header{
     background-color: grey;
     text-align: center;
 }
+.shelter-description{
+    color: white;
+}
 /* Soup page css */
+
+/* Shelter page css*/
+.soup-description{
+    color: white;
+}
+/* Shelter page css*/

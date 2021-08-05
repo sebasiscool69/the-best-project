@@ -15,3 +15,11 @@ The conecpt of the assignment was to create a application that would help solve 
 https://sebasiscool69.github.io/the-best-project/
 
 # Visual of live application:
+
+![](assets/photos/preview.png)
+
+![](assets/photos/preview-2.png)
+
+![](assets/photos/preview-3.png)
+
+
