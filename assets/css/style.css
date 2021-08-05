@@ -48,4 +48,16 @@ header{
     color: white;
     padding: 0 10px 0 10px;
 }
+#pickOneTitle{
+    text-align: center;
+    vertical-align: middle;
+}
+#pickOneTitle h3{
+    color: #26a69a;
+    background-color: #000000;
+    padding: 50px 25px;
+    margin: 50px;
+}
+
+
 /* hero-top CSS */
