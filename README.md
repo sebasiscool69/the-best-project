@@ -15,10 +15,10 @@ The conecpt of the assignment was to create a application that would help solve 
 
 # Visual of live application:
 
-![](photos/preview.png)
+![](assets/photos/preview.png)
 
-![](images/preview-2.png)
+![](assets/photos/preview-2.png)
 
-![](images/preview-3.png)
+![](assets/photos/preview-3.png)
 
 
