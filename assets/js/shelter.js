@@ -27,10 +27,8 @@ fetch("https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Service_
         // holds URL of shelter
         let shelterUrl = data.features [i].attributes.URL;
         console.log(shelterUrl);
-        let Url = $("<a>").addClass("shelter-url").text(shelterUrl);
+        let Url = $('<a target="_blank">').addClass("shelter-url").attr('href', shelterUrl).text(shelterUrl);
         shelter_div.append(Url);
-
-
 
         // push everything to shelter-display section in html
         $(".shelter-display").prepend(shelter_div);
