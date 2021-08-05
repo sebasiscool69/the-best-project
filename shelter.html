@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soup</title>
+    <!-- links for materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar" style="padding:0px 10px; position: fixed;">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Soup & Shelter</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shelter.html">Shelter Locations</a></li>
+                <li><a href="soup.html">Soup House </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Sidebar html -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shelter.html">Shelter Locations</a></li>
+        <li><a href="soup.html">Soup House</a></li>
+    </ul>
+
     <header>
         <h1>Shelter results</h1>
         <p> Enter the city you are in and let us do the rest!</p>
@@ -19,8 +52,13 @@
             <input type="reset">
         </form>
         <p>Here is your list of the closest Shelters by you:</p>
-
+    </section>
+    <!-- Shellter get displayed HERE! -->
+    <section class="shelter-display">
 
     </section>
+
+
+    <script src="assets/js/shelter.js"></script>
 </body>
 </html>
