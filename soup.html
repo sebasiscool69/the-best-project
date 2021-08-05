@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soup</title>
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" style="padding:0px 10px; position: fixed;">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Soup & Shelter</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shelter Locations</a></li>
+                <li><a href="#">Soup House </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Sidebar html -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shelter Locations</a></li>
+        <li><a href="#">Soup House</a></li>
+    </ul>
+
+    <header>
+        <h1>Soup results</h1>
+        <p> Enter the city you are in and let us do the rest!</p>
+    </header>
+    <section id="">
+        <form>
+            <label for="city">Enter your city:</label>
+            <input type="text" id="city" name="city"></label>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+        <p>Here is your list of the closest Soup kitchens by you:</p>
+    </section>
+</body>
+</html>
