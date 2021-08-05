@@ -6,7 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soup & Shelter</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -40,7 +53,6 @@
         </h5>
         <a class="waves-effect waves-light btn" href="#about-us">&#127774 ABOUT US &#127774</a>
     </header>
-
     <!-- About Us -->
     <section id= "about-us" class="">
         <div class="flex-row">
@@ -70,26 +82,36 @@
         </div>
     </section>
     
-        <!-- Search Shelter -->
-    <section class="pickOne">
-        <div class="pickOneTitle">
-            <h3>Pick one of the options below!</h3>
-            <div class="links">
-                <div>
-                <a href="soup.html">Soup Kitchen</a>
-                <p>Soup Kitchens located in your local area! </p>
-                </div>
-                <div>
-                    <a href="shelter.html">Local Shelters</a>
-                    <p>Local shelters ready to help!</p>
-                </div>
-                <div>
-                    <a href="both.html">Need both?</a>
-                    <p>We've made it easier for you to look at all your options!</p>
-                </div>
-            </div>
-            </br>
-
+    <!-- Search Shelter -->
+    <section class = "">
+        <div class= "" id="">
+            <h3>Hey there!</h3>
+            <form class="" id="startUp">
+                <h4>Please pick from the options below!</h4>
+                <p>
+                    Will it be soup, shelter, or both today?
+                    <span class="">
+                    </br>
+                        <input type="checkbox" name="soup" id="soupCheck" value="Soup"/>
+                        <label for=""> Soup </label>
+                    </span>
+                    </br>
+                    <span class="">
+                        <input type="checkbox" name="shelter" id="shelCheck" value="Shelter"/>
+                        <label for=""> Shelter </label>
+                    </span>
+                </p> 
+                <p>
+                    Please check off this box if you are looking to volunteer.
+                    <span class="">
+                    </br>
+                    <input type="checkbox" name="volunteer" id="volCheck" value="Volunteer"/>
+                    <label for="">Yes, I want to volunteer!</label>
+                </p>
+                <button type="submit" id="buttonSubmit" class="" value="Submit">
+                    Let's get started!
+                </button>
+            </form>
         </div>
     </section>
 
@@ -98,9 +120,9 @@
             &#128150 Do something nice for a stranger &#128536
         </h3>
     </footer>
-    <script src="./assets/js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/homepage.js"></script>
+    <script src="./assets/js/soup.js"></script>
+    <script src="./assets/js/shelter.js"></script>
 
 </body>
 </html>
