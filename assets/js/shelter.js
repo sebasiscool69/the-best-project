@@ -12,7 +12,7 @@ fetch("https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Service_
     for(let i = 0; i< 20; i++){
 
         // div that will hold all the api html
-        let shelter_div = $("<div id='shelter-div' class='col s12'>");
+        let shelter_div = $("<div class='shelter-div' class='col s12'>");
 
         // HOLDS EACH SHELTER NAME
         let shelterName = data.features[i].attributes.FACILITY_NAME;
@@ -26,8 +26,7 @@ fetch("https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Service_
 
         // holds URL of shelter
         let shelterUrl = data.features [i].attributes.URL;
-        console.log(shelterUrl);
-        let Url = $('<a target="_blank">').addClass("shelter-url").attr('href', shelterUrl).text(shelterUrl);
+        let Url = $('<a target="_blank">').addClass("shelter-url").attr('href', shelterUrl).text("website link");
         shelter_div.append(Url);
 
         // push everything to shelter-display section in html
