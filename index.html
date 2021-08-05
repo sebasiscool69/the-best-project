@@ -6,28 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soup & Shelter</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Soup</title>
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- links for materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar" style="padding:0px 10px; position: fixed;">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Soup & Shelter</a>
+            <a href="index.html" class="brand-logo">Soup & Shelter</a>
             <a href="#" class="sidenav-trigger" data-target="mobile-nav">
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shelter Locations</a></li>
-                <li><a href="#">Soup House </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shelter.html">Shelter Locations</a></li>
+                <li><a href="soup.html">Soup House </a></li>
             </ul>
         </div>
     </nav>
     <!-- Sidebar html -->
     <ul class="sidenav" id="mobile-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shelter Locations</a></li>
-        <li><a href="#">Soup House</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shelter.html">Shelter Locations</a></li>
+        <li><a href="soup.html">Soup House</a></li>
     </ul>
 
     <!-- Hero Top -->
@@ -40,13 +49,23 @@
         </h5>
         <a class="waves-effect waves-light btn" href="#about-us">&#127774 ABOUT US &#127774</a>
     </header>
-
     <!-- About Us -->
     <section id= "about-us" class="">
         <div class="flex-row">
             <h2 class="section-title primary-border">About us</h2>
         </div>
         <div class= "row">
+
+            <h2 class="section-title primary-border">The community</h2>
+        <div class="row">
+        <div class="col s12 m4 l2"><p><img control width="200" src="assets/photos/kitchen.jpeg" alt="soup-kitchen" /></p></div>
+
+        <div class="col s12 m4 l8"><p><img control width="300" src="assets/photos/giving-food.jpg" alt="helping-people" /></p></div>
+
+        <div class="col s12 m4 l2"><p><img control width="300" src="assets/photos/shelter.jpg" alt="shelter" /></p></div>
+        </div>
+
+        <div class= "flex-row">
             <h3> Our Mission</h3>
             <p>We created this website to help solve a world problem. 
                 Over the last year things have been very rough, especially with covid. 
@@ -55,6 +74,7 @@
                 As the century's old saying goes,<strong> 'A chain is only as strong as it's weakest link'</strong>. 
                 Helping others in need is the best way to persevere through these difficult times and mend this divided country.
             </p>
+          
             <div id="image">
             <div class="col s4" id="image-one">
                 <img control width="200" src="assets/photos/kitchen.jpeg" alt="soup-kitchen" />
@@ -83,19 +103,13 @@
                     <a href="shelter.html">Local Shelters</a>
                     <p>Local shelters ready to help!</p>
                 </div>
-            </div>
-            </br>
 
-        </div>
 
     <footer>
         <h3>
             &#128150 Do something nice for a stranger &#128536
         </h3>
     </footer>
-    <script src="./assets/js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="assets/js/homepage.js"></script>
 </body>
 </html>

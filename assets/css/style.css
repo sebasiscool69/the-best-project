@@ -6,6 +6,9 @@
 
 }
 
+html:focus-within {
+    scroll-behavior: smooth;
+}
 
 /* navbar CSS */
 .navbar{
@@ -29,7 +32,10 @@
 
 /* hero-top CSS */
 header{
-    background-image: url("../photos/giving-food.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("../photos/giving-food.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,4 +77,22 @@ header{
     padding: 50px 25px;
     margin: 50px;
 }
+#hero-description{
+    color: white;
+}
 /* hero-top CSS */
+
+/* Soup page css */
+.shelter-display{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.shelter-name{
+    font-size: 1.25rem;
+}
+
+.shelter-div{
+    background-color: grey;
+    text-align: center;
+}
+/* Soup page css */
