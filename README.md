@@ -12,6 +12,7 @@ The conecpt of the assignment was to create a application that would help solve 
 * Sever and client side APIs
 
 # Link to website:
+https://sebasiscool69.github.io/the-best-project/
 
 # Visual of live application:
 
