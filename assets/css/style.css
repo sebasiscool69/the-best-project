@@ -57,3 +57,27 @@ header{
     color: white;
 }
 /* hero-top CSS */
+
+
+
+/*footer*/
+footer{
+    background-color: #26a69a;
+    width: 100%;
+    padding: 30px 45px;
+    text-align: center;
+}
+
+.pickOneTitle{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align: justify;
+    text-shadow: 50rem;
+}
+
