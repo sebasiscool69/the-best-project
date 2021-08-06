@@ -57,17 +57,12 @@ header{
 #hero-description {
     color: #ffffff;
 }
-#pickOneTitle{
+#search-links{
     text-align: center;
     vertical-align: middle;
 }
-#pickOneTitle h3{
-    padding: 50px 25px;
-    margin: 50px;
-    text-decoration: underline #26a69a;
-}
-#linksTitle a{
-    color: #000000;
+#search-links a{
+    color: #ffffff;
 }
 #about-us{
     text-align: center;
