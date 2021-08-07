@@ -31,7 +31,11 @@ html:focus-within {
 /* navbar CSS */
 
 /* hero-top CSS */
-header{
+#hero-top{
+    text-align: center;
+    line-height: 50%;
+    padding-bottom: 80px;
+    padding-top: 80px;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
@@ -43,12 +47,6 @@ header{
     padding-right: 200px;
     padding-left: 200px;
 }
-#hero-top{
-    text-align: center;
-    line-height: 50%;
-    padding-bottom: 80px;
-    padding-top: 80px;
-}
 #hero-title{
     font-size: 3rem;
     padding: 0 10px 0 10px;
@@ -56,21 +54,6 @@ header{
 }
 #hero-description {
     color: #ffffff;
-}
-#search-links{
-    text-align: center;
-    vertical-align: middle;
-}
-#search-links a{
-    color: #ffffff;
-}
-#about-us{
-    text-align: center;
-    vertical-align: middle;
-}
-#image {
-    padding: 50px 25px;
-    margin: 50px;
 }
 #hero-description{
     color: white;
@@ -82,8 +65,53 @@ header{
     width: 350px;
     height: 250px;
 }
+#about-us{
+    text-align: center;
+    vertical-align: middle;
+}
+#mission-parallax{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("../photos/kitchen.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    line-height: 50%;
+}
+/* About us CSS */
 
+/*Search Shelter and Soup CSS */
+#search-links{
+    text-align: center;
+    vertical-align: middle;
+}
+#search-links a{
+    color: #ffffff;
+}
+#search-parallax{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("../photos/shelter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    line-height: 50%;
+}
+/*Search Shelter and Soup CSS */
 
+/*footer CSS*/
+footer{
+    background-color: #26a69a;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
 
 /* Soup page css */
 .shelter-display{
@@ -100,6 +128,10 @@ header{
 }
 .shelter-description{
     color: white;
+}
+#form-style{
+    text-align: center;
+    vertical-align: middle;
 }
 /* Soup page css */
 
