@@ -81,6 +81,9 @@ html:focus-within {
     padding: 200px;
     line-height: 50%;
 }
+#our-mission{
+    padding: 25px 50px 50px;
+}
 /* About us CSS */
 
 /*Search Shelter and Soup CSS */
@@ -90,6 +93,9 @@ html:focus-within {
 }
 #search-links a{
     color: #ffffff;
+}
+#link{
+    padding: 17px;
 }
 #search-parallax{
     background-image: linear-gradient(
