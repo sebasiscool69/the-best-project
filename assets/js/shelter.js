@@ -33,5 +33,3 @@ fetch("https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Service_
         $(".shelter-display").prepend(shelter_div);
     }
 })
-
-
