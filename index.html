@@ -19,6 +19,7 @@
 </head>
 <body>
     <!-- Navbar -->
+<header>
     <nav class="navbar" style="padding:0px 10px; position: fixed;">
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo">Soup & Shelter</a>
@@ -32,15 +33,16 @@
             </ul>
         </div>
     </nav>
+</header>
     <!-- Sidebar html -->
     <ul class="sidenav" id="mobile-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="shelter.html">Shelter Locations</a></li>
         <li><a href="soup.html">Soup House</a></li>
     </ul>
-
+<main>
     <!-- Hero Top -->
-    <header class="section parallax-containe" id="hero-top">
+    <div class="section parallax-containe" id="hero-top">
         <h1 id="hero-title">Helping The World One Cup Of Soup At A Time</h1>
 
         <h5 id="hero-description">In need of a soup kitchen or a shelter? 
@@ -48,7 +50,7 @@
             eat a warm meal, or to volunteer in your community!
         </h5>
         <a class="waves-effect waves-light btn" href="#about-us">&#127774 ABOUT US &#127774</a>
-    </header>
+    </div>
 
     <!-- About Us -->
     <section id= "about-us" class="">
@@ -65,7 +67,8 @@
                 <img class="community-pics" src="assets/photos/shelter.jpg" alt="shelter" />
             </div>
         </div>
-        <div class= "flex-row">
+        <div class="section parallax-containe" id="mission-parallax"></div>
+        <div class= "flex-row" id="our-mission">
             <h3> Our Mission</h3>
             <p>We created this website to help solve a world problem. 
                 Over the last year things have been very rough, especially with covid. 
@@ -76,25 +79,22 @@
             </p>
         </div>
     </section>
-
+    <div class="section parallax-containe" id="search-parallax"></div>
     <!-- Search Shelter or Soup -->
     <section class="row" id="search-links">
             <h5 class="col s12" id="search-title">Pick one of the options below!</h5>
-                <div class="btn-small" id="soup-link">
-                    <a href="soup.html">Soup Kitchen</a>
-                </div>
-                <div class="btn-small" id="shelter-link">
-                    <a href="shelter.html">Local Shelters</a>
-                </div>
-                <!--<div class="">
+                <div id="link" class="col s6">
+                    <a href="soup.html" class="btn-small waves-effect waves-light">Soup Kitchen</a>
                     <p>Soup Kitchens located in your local area! </p>
                 </div>
-                <div class="">
+                <div id="link" class="col s6">
+                    <a href="shelter.html" class="btn-small waves-effect waves-light">Local Shelters</a>
                     <p>Local shelters ready to help!</p>
-                </div> -->
+                </div>
     </section>
+</main>
 
-    <footer>
+    <footer class="container">
         <h3>
             &#128150 Do something nice for a stranger &#128536
         </h3>
